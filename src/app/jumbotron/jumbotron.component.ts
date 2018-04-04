@@ -1,8 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
     selector: 'app-jumbotron',
-    templateUrl: './jumbotron.component.html'
-)},
+    templateUrl: './jumbotron.component.html',
+    styleUrls: ['./jumbotron.component.scss']
+})
 
-export class JumbotronComponent { }
+export class JumbotronComponent implements OnInit {
+
+    connstructor() { }
+
+    ngOnInit() {
+    }
+
+}

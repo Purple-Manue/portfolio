@@ -1,0 +1,35 @@
+#about {
+
+    // background-color: #c6c4c4;
+    height: auto;
+    margin: -45px 0px 20px 0px;
+    padding-bottom: 25px;
+
+    h2 {
+          margin: 65px 0px 35px 0px;
+          color: #687b87;
+    }
+
+    .opacity:hover {
+         	opacity: 0.5;
+         	transition: all 0.5s ease-out;
+         	-webkit-transition: all 0.5s ease-in;
+    }
+
+    #avatar {
+        margin: 12px 0px 12px 0px;
+        padding-top: 1.5em;
+    }
+
+    #description {
+          color: #98a7ae;
+
+          h1 {
+               color: purple;
+             p {
+                 margin-top: -14px;
+                 padding-top: 20px;
+             }
+          }
+    }
+}
